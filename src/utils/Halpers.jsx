@@ -1,0 +1,1 @@
+export const HEADER_LIST = ["About", "Presale $GILD", "Staking $GILD", "$GILD Nodes"];

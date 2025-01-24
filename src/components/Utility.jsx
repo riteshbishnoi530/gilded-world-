@@ -10,7 +10,7 @@ function Utility() {
                 <p className='max-w-[649px] max-lg:max-w-full text-white text-xl opacity-70 max-lg:text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin curabitur iaculis id cursus dignissim. Volutpat placerat volutpat commodo id ultricies volutpat vestibulum. Egestas venenatis dignissim fames maecenas. Blandit orci consectetur mauris, ipsum viverra quisque. Vulputate sollicitudin tellus eget consequat lectus dignissim integer in vitae. Commodo integer dis tortor cras maecenas sit. Et nunc et platea elementum, cursus morbi. Placerat molestie nibh parturient lectus magna sed fusce diam urna. Quam magna duis imperdiet posuere iaculis.</p>
             </div>
             <div className='xl:pr-[114px]'>
-                <img className='max-w-[370px] max-lg:max-w-[300px]' src={utility} alt="image" />
+                <img className='pointer-events-none max-w-[370px] max-lg:max-w-[300px]' src={utility} alt="image" />
             </div>
         </div>
     </div>

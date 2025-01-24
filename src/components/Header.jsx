@@ -29,7 +29,7 @@ const Header = () => {
         <div className="max-w-[1440px] mx-auto relative z-10">
             <nav className="flex justify-between items-center">
                 <a href="/">
-                    <img className="max-w-[268px] max-xl:max-w-[200px]" src={Logo} alt="logo" />
+                    <img className="pointer-events-none max-w-[268px] max-xl:max-w-[200px]" src={Logo} alt="logo" />
                 </a>
                 <div className="flex gap-7 absolute right-0">
                     <div
@@ -37,10 +37,10 @@ const Header = () => {
                     >
                         {HEADER_LIST.map((item, index) => (
                             <div key={index} className="relative">
-                                <a onClick={toggleSidebar} className="text-white font-josefin text-custom-xl max-xl:text-lg" href="#">{item}</a>
+                                <a onClick={toggleSidebar} className="text-white font-josefin text-custom-xl max-xl:text-lg hover:opacity-70 transition-all ease-in-out duration-300" href="#">{item}</a>
                             </div>
                         ))}
-                        <a target="_blank" href="https://discord.com" className="py-[14px] px-[34px] presale-shadow bg-gradient-to-r from-off-blue to-off-sky text-white font-normal text-2xl flex items-center rounded-full gap-2 hover:scale-110 transition-all ease-in-out duration-300"><img src={discord} alt="discord" /> Discord
+                        <a target="_blank" href="https://discord.com" className="py-[14px] px-[34px] presale-shadow bg-gradient-to-r from-off-blue to-off-sky text-white font-normal text-2xl flex items-center rounded-full gap-2 hover:scale-110 transition-all ease-in-out duration-300"><img className="pointer-events-none" src={discord} alt="discord" /> Discord
                         </a>
                     </div>
                     

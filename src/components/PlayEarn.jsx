@@ -14,16 +14,16 @@ const PlayEarn = () => {
         <img
           src={left}
           alt="smoke"
-          className="absolute left-0 max-xl:hidden"
+          className="absolute left-0 max-xl:hidden pointer-events-none"
         />
         <img
           src={right}
           alt="smoke"
-          className="absolute right-0 max-xl:hidden"
+          className="absolute right-0 max-xl:hidden pointer-events-none"
         />
         <div className="relative z-10 bg-gradient-to-r from-off-blue to-off-sky p-[5px] rounded-xl mt-12">
         <img
-          className="max-w-[1320px] w-full rounded-xl"
+          className="max-w-[1320px] w-full rounded-xl pointer-events-none"
           src={gilded}
           alt="gilded-world-img"
         />

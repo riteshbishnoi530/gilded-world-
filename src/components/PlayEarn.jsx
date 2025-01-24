@@ -21,12 +21,12 @@ const PlayEarn = () => {
           alt="smoke"
           className="absolute right-0 max-xl:hidden pointer-events-none"
         />
-        <div className="relative z-10 bg-gradient-to-r from-off-blue to-off-sky p-[5px] rounded-xl mt-12">
-        <img
-          className="max-w-[1320px] w-full rounded-xl pointer-events-none"
-          src={gilded}
-          alt="gilded-world-img"
-        />
+        <div className="relative z-10 bg-gradient-to-r from-off-blue to-off-sky p-[5px] rounded-xl mt-12 max-md:mt-8">
+          <img
+            className="max-w-[1320px] w-full rounded-xl pointer-events-none"
+            src={gilded}
+            alt="gilded-world-img"
+          />
         </div>
       </div>
     </div>

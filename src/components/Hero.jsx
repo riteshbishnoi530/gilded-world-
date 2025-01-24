@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Header from "./Header";
+import presale from "../assets/images/presale.webp";
 
 const Hero = () => {
   const [timeLeft, setTimeLeft] = useState({
@@ -62,7 +63,7 @@ const Hero = () => {
         </p>
         <div className=" flex flex-wrap items-center gap-6 justify-center mt-[22px] pb-[129px] max-xl:pb-24 max-lg:pb-16 max-md:pb-12 max-sm:pb-8">
           <button className="py-[14px] px-[34px] max-md:px-7 max-md:py-2 presale-shadow bg-gradient-to-r from-[#815CC8] to-[#1BABFE] text-white font-normal text-2xl flex items-center rounded-full gap-2 hover:scale-110 transition-all ease-in-out duration-300">
-            <img src="src/assets/images/presale.webp" alt="icon" className="w-full max-w-[22px]"/>
+            <img src={presale} alt="icon" className="w-full max-w-[22px]"/>
             Presale
           </button>
           <button className="py-[14px] px-[34px]  max-md:px-7 max-md:py-2 border border-solid border-white text-white font-normal text-2xl flex items-center justify-center rounded-full gap-2 hover:scale-110 transition-all ease-in-out duration-300">

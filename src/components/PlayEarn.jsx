@@ -1,4 +1,5 @@
 import React from "react";
+import gilded from "../assets/gif/gilded.gif"
 
 const PlayEarn = () => {
   return (
@@ -21,7 +22,7 @@ const PlayEarn = () => {
         <div className="relative z-10 bg-gradient-to-r from-[#815CC8] to-[#1BABFE] p-[5px] rounded-xl mt-12">
         <img
           className="max-w-[1320px] w-full rounded-xl"
-          src="src/assets/gif/gilded.gif"
+          src={gilded}
           alt="gilded-world-img"
         />
         </div>

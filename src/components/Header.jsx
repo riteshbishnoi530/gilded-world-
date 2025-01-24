@@ -40,7 +40,7 @@ const Header = () => {
                                 <a onClick={toggleSidebar} className="text-white font-josefin text-custom-xl max-xl:text-lg" href="#">{item}</a>
                             </div>
                         ))}
-                        <a target="_blank" href="https://discord.com" className="py-[14px] px-[34px] presale-shadow bg-gradient-to-r from-[#815CC8] to-[#1BABFE] text-white font-normal text-2xl flex items-center rounded-full gap-2 hover:scale-110 transition-all ease-in-out duration-300"><img src={discord} alt="discord" /> Discord
+                        <a target="_blank" href="https://discord.com" className="py-[14px] px-[34px] presale-shadow bg-gradient-to-r from-off-blue to-off-sky text-white font-normal text-2xl flex items-center rounded-full gap-2 hover:scale-110 transition-all ease-in-out duration-300"><img src={discord} alt="discord" /> Discord
                         </a>
                     </div>
                     

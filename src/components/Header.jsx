@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { HEADER_LIST } from "../utils/Halpers";
 import Logo from "../assets/images/logo.webp";
 import discord from "../assets/images/discord.webp";
+import CustomButton from "../common/CustomButton";
 const Header = () => {
     const [open, setOpen] = useState(false);
 
@@ -40,8 +41,7 @@ const Header = () => {
                                 <a onClick={toggleSidebar} className="text-white font-josefin text-custom-xl max-xl:text-lg hover:opacity-70 transition-all ease-in-out duration-300" href="#">{item}</a>
                             </div>
                         ))}
-                        <a target="_blank" href="https://discord.com" className="py-[14px] px-[34px] presale-shadow bg-gradient-to-r from-off-blue to-off-sky text-white font-normal text-2xl flex items-center rounded-full gap-2 hover:scale-110 transition-all ease-in-out duration-300"><img className="pointer-events-none" src={discord} alt="discord" /> Discord
-                        </a>
+                         <CustomButton btnImg={discord} urlLink="https://discord.com" customLink="Discord"/>
                     </div>
                     
                 </div>

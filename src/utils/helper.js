@@ -1,4 +1,4 @@
-import token from "../assets/images/Token-Info.webp";
+import token from "../assets/images/token-Info.webp";
 import presale from "../assets/images/presale-token.webp";
 import holders from "../assets/images/holders.webp";
 import sold from "../assets/images/nft-sold.webp";

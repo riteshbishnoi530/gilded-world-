@@ -1,9 +1,9 @@
 import React from 'react'
-import { UNISWAP_LIST } from '../utils/Halpers'
 import gold from '../assets/images/gold.webp'
 import Heading from '../common/Heading'
 import CustomButton from '../common/CustomButton'
 import uniswapIcon from '../assets/images/uniswap-icon.webp'
+import { UNISWAP_LIST } from '../utils/helper'
 
 
 const Uniswap = () => {
@@ -14,9 +14,9 @@ const Uniswap = () => {
                 <div className='w-full'>
                     <Heading myClass="!text-left" heading="Buy On" spanTwo="Uniswap" />
                     <ul className='list-disc pl-6 pt-1'>
-                        {UNISWAP_LIST.map(function (item, i) {
-                            return <li key={i} className='josefin text-xl max-md:text-lg max-md:pb-2 max-sm:pb-1 leading-[25.5px] text-white pb-[11px]'>{item}</li>
-                        })}
+                        {UNISWAP_LIST.map((item, i) =>(
+                         <li key={i} className='josefin text-xl max-md:text-lg max-md:pb-2 max-sm:pb-1 leading-[25.5px] text-white pb-[11px]'>{item}</li>
+                        ))}
                     </ul>
                     <CustomButton myClass="mt-10" btnImg={uniswapIcon} customBtn="Buy Now"/>
                 </div>

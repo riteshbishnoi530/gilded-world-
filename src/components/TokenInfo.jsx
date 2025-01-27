@@ -1,8 +1,9 @@
 import React from 'react'
 import Heading from '../common/Heading'
-import { TOKEN_INFO } from '../utils/Halpers'
+import { TOKEN_INFO } from '../utils/helper'
 
-function TokenInfo() {
+
+const TokenInfo = () => {
   return (
         <div className='px-4 bg-[url(./assets/images/token-info-bg.webp)] bg-center bg-cover bg-no-repeat py-[100px] max-lg:py-16 max-md:py-12 max-sm:py-8 -mt-1 relative z-10'>
         <Heading heading="Token Info" spanHeading="$GILD" myClass="text-center"/>

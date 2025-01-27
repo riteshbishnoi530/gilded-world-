@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { HEADER_LIST } from "../utils/Halpers";
 import Logo from "../assets/images/logo.webp";
 import discord from "../assets/images/discord.webp";
 import CustomButton from "../common/CustomButton";
+import { HEADER_LIST } from "../utils/helper";
 const Header = () => {
     const [open, setOpen] = useState(false);
 
@@ -30,7 +30,7 @@ const Header = () => {
         <div className="max-w-[1440px] mx-auto relative z-10">
             <nav className="flex justify-between items-center">
                 <a href="/">
-                    <img className="pointer-events-none max-w-[268px] max-xl:max-w-[200px]" src={Logo} alt="logo" />
+                    <img className="pointer-events-none max-w-[268px] max-xl:max-w-[200px] max-md:max-w-[160px]" src={Logo} alt="logo" />
                 </a>
                 <div className="flex gap-7 absolute right-0">
                     <div

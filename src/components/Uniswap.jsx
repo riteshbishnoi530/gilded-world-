@@ -15,7 +15,7 @@ const Uniswap = () => {
                     <Heading myClass="!text-left" heading="Buy On" spanTwo="Uniswap" />
                     <ul className='list-disc pl-6 pt-1'>
                         {UNISWAP_LIST.map((item, i) =>(
-                         <li key={i} className='josefin text-xl max-md:text-lg max-md:pb-2 max-sm:pb-1 leading-[25.5px] text-white pb-[11px]'>{item}</li>
+                         <li key={i} className='font-josefin text-xl max-md:text-lg max-md:pb-2 max-sm:pb-1 leading-[25.5px] text-white pb-[11px]'>{item}</li>
                         ))}
                     </ul>
                     <CustomButton myClass="mt-10" btnImg={uniswapIcon} customBtn="Buy Now"/>

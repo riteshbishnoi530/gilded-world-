@@ -20,10 +20,10 @@ const Roadmap = () => {
                             <p className='font-semibold text-lg max-md:text-base leading-6 text-white'>{item.phase}</p>
                             <h2 className='font-semibold text-4xl max-lg:text-3xl leading-[46.44px] max-sm:leading-8 text-white max-md:text-2xl max-sm:text-lg'>{item.title} {year}</h2>
                             <ul className='list-disc pl-6 pt-3 max-md:pt-0'>
-                                <li className='montserrat text-lg max-md:text-base max-md:pb-0 leading-[32.4px] text-white/70 pb-3'>{item.optionOne}</li>
-                                <li className='montserrat text-lg max-md:text-base max-md:pb-0 leading-[32.4px] text-white/70 pb-3'>{item.optionTwo}</li>
-                                <li className={`${i === 1 ? "hidden" : ""} max-md:text-base max-md:pb-0 montserrat text-lg leading-[32.4px] text-white/70 pb-3`}>{item.optionThree}</li>
-                                <li className={`${i === 1 ? "hidden" : ""} max-md:text-base max-md:pb-0 montserrat text-lg leading-[32.4px] text-white/70 pb-3`}>{item.optionFour}</li>
+                                <li className='font-montserrat text-lg max-md:text-base max-md:pb-0 leading-[32.4px] text-white/70 pb-3'>{item.optionOne}</li>
+                                <li className='font-montserrat text-lg max-md:text-base max-md:pb-0 leading-[32.4px] text-white/70 pb-3'>{item.optionTwo}</li>
+                                <li className={`${i === 1 ? "hidden" : ""} max-md:text-base max-md:pb-0 font-montserrat text-lg leading-[32.4px] text-white/70 pb-3`}>{item.optionThree}</li>
+                                <li className={`${i === 1 ? "hidden" : ""} max-md:text-base max-md:pb-0 font-montserrat text-lg leading-[32.4px] text-white/70 pb-3`}>{item.optionFour}</li>
                             </ul>
                         </div>
                     ))}
